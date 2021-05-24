@@ -1,0 +1,5 @@
+=Sort(query({P3:AC},"select * where Col2 is not null",0),7,True,1,True,3,True)
+//This is a Query fuction inside of a sort function
+//query funtion queries a range P3:AC and only returns data where the specified column in that range (Q, the 2nd column) is not empty. The 0 denotes that the
+//range does not have a header
+//The query function is nested within a sort function that says Sort(query,7|First by 7th column and so on|,True|Makes it either ascending or descending I don't remember|
